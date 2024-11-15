@@ -58,7 +58,7 @@ If you want to use this repository to perform search and training on your own da
    root_dir = E:\\Zero_NAS_RES\\Code\\ETM-NAS\\datasets
    ```
 
-   4. **Run the Program.**  
+4. **Run the Program.**  
    Execute the main.py file.
 
 # Enjoy the efficient and enjoyable training experience with ETM-NAS!
