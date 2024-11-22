@@ -64,4 +64,4 @@ If you want to use this repository to perform search and training on your own da
 # Enjoy the efficient and enjoyable training experience with ETM-NAS!
 
 # Notice
-If you would like to receive full source results of ETM-NAS, please contact first author Jie Zheng at zjpdd0905@stu.cwnu.edu.cn. Please indicate your purpose of use, I will reply the first moment I see the email, thank you
+If you would like to receive full source results of ETM-NAS, please contact the author Jie Zheng at zjpdd0905@stu.cwnu.edu.cn. Please indicate your purpose of use, I will reply the first moment I see the email, thank you
