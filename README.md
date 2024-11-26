@@ -4,33 +4,35 @@ Efficient Training-free Multi-Scale Neural Architecture Search for Medical Image
 ## Citation
 ```
 @INPROCEEDINGS{FPSO,
-title={A Flexible Variable-length Particle Swarm Optimization Approach to Convolutional Neural Network Architecture Design},
-author={Huang, Junhao and Xue, Bing and Sun, Yanan and Zhang, Mengjie},
-booktitle={2021 IEEE Congress on Evolutionary Computation (CEC)},
-year={2021},
-pages={934-941},
-doi={10.1109/CEC45853.2021.9504716}
+  title={A Flexible Variable-length Particle Swarm Optimization Approach to Convolutional Neural Network Architecture Design},
+  author={Huang, Junhao and Xue, Bing and Sun, Yanan and Zhang, Mengjie},
+  booktitle={2021 IEEE Congress on Evolutionary Computation (CEC)},
+  year={2021},
+  pages={934-941},
+  doi={10.1109/CEC45853.2021.9504716}
 }
 
 @ARTICLE{EPCNAS,
-author={Huang, Junhao and Xue, Bing and Sun, Yanan and Zhang, Mengjie and Yen, Gary G.},
-journal={IEEE Transactions on Evolutionary Computation (Early Access)},
-title={Particle Swarm Optimization for Compact Neural Architecture Search for Image Classification},
-year={2022},
-volume={},
-number={},
-pages={1-15},
-doi={10.1109/TEVC.2022.3217290}}
+  author={Huang, Junhao and Xue, Bing and Sun, Yanan and Zhang, Mengjie and Yen, Gary G.},
+  journal={IEEE Transactions on Evolutionary Computation (Early Access)},
+  title={Particle Swarm Optimization for Compact Neural Architecture Search for Image Classification},
+  year={2022},
+  volume={},
+  number={},
+  pages={1-15},
+  doi={10.1109/TEVC.2022.3217290}
+}
 
 @ARTICLE{10132401,
-author={Huang, Junhao and Xue, Bing and Sun, Yanan and Zhang, Mengjie and Yen, Gary G.},
-journal={IEEE Transactions on Neural Networks and Learning Systems},
-title={Split-Level Evolutionary Neural Architecture Search With Elite Weight Inheritance},
-year={2023},
-volume={},
-number={},
-pages={1-15},
-doi={10.1109/TNNLS.2023.3269816}}
+  author={Huang, Junhao and Xue, Bing and Sun, Yanan and Zhang, Mengjie and Yen, Gary G.},
+  journal={IEEE Transactions on Neural Networks and Learning Systems},
+  title={Split-Level Evolutionary Neural Architecture Search With Elite Weight Inheritance},
+  year={2023},
+  volume={},
+  number={},
+  pages={1-15},
+  doi={10.1109/TNNLS.2023.3269816}
+}
 
 @inproceedings{lee2024az,
   title={AZ-NAS: Assembling Zero-Cost Proxies for Network Architecture Search},
