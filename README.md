@@ -1,5 +1,90 @@
 # ETM-NAS
-An Efficient Train-free NAS for Medical Image Classification
+Efficient Training-free Multi-Scale Neural Architecture Search for Medical Image Analysis
+
+## Citation
+```
+@INPROCEEDINGS{FPSO,
+title={A Flexible Variable-length Particle Swarm Optimization Approach to Convolutional Neural Network Architecture Design},
+author={Huang, Junhao and Xue, Bing and Sun, Yanan and Zhang, Mengjie},
+booktitle={2021 IEEE Congress on Evolutionary Computation (CEC)},
+year={2021},
+pages={934-941},
+doi={10.1109/CEC45853.2021.9504716}
+}
+
+@ARTICLE{EPCNAS,
+author={Huang, Junhao and Xue, Bing and Sun, Yanan and Zhang, Mengjie and Yen, Gary G.},
+journal={IEEE Transactions on Evolutionary Computation (Early Access)},
+title={Particle Swarm Optimization for Compact Neural Architecture Search for Image Classification},
+year={2022},
+volume={},
+number={},
+pages={1-15},
+doi={10.1109/TEVC.2022.3217290}}
+
+@ARTICLE{10132401,
+author={Huang, Junhao and Xue, Bing and Sun, Yanan and Zhang, Mengjie and Yen, Gary G.},
+journal={IEEE Transactions on Neural Networks and Learning Systems},
+title={Split-Level Evolutionary Neural Architecture Search With Elite Weight Inheritance},
+year={2023},
+volume={},
+number={},
+pages={1-15},
+doi={10.1109/TNNLS.2023.3269816}}
+
+@inproceedings{lee2024az,
+  title={AZ-NAS: Assembling Zero-Cost Proxies for Network Architecture Search},
+  author={Lee, Junghyup and Ham, Bumsub},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={5893--5903},
+  year={2024}
+}
+
+@article{wang2024mednas,
+  title={MedNAS: Multi-Scale Training-Free Neural Architecture Search for Medical Image Analysis},
+  author={Wang, Yan and Zhen, Liangli and Zhang, Jianwei and Li, Miqing and Zhang, Lei and Wang, Zizhou and Feng, Yangqin and Xue, Yu and Wang, Xiao and Chen, Zheng and others},
+  journal={IEEE Transactions on Evolutionary Computation},
+  year={2024},
+  publisher={IEEE}
+}
+
+@article{li2023zico,
+  title={Zico: Zero-shot nas via inverse coefficient of variation on gradients},
+  author={Li, Guihong and Yang, Yuedong and Bhardwaj, Kartikeya and Marculescu, Radu},
+  journal={arXiv preprint arXiv:2301.11300},
+  year={2023}
+}
+```
+
+## Requirements
+
+- `python 3.9`
+- `Pytorch >= 1.8`
+- `torchvison`
+- `opencv-python`
+
+## Data
+
+Download MedmnistV2 and NAS-Bench-201 datasets, and place them in `global.ini` file.
+
+- MedmnistV2 from [here](https://medmnist.com/)
+- NAS-Bench-201 from [here](https://github.com/D-X-Y/NAS-Bench-201)
+    
+    
+## Folder Structure
+- datasets : store dataset
+- load_dataset: load data for train eval and test
+- log : store train eval and test log
+- populations : store population err flops gbest params pbest population information
+- scripts : According to the data set corresponding to the template folder, the corresponding network script is generated for training evaluation
+- template: Network files constructed from different datasets
+- trained_models : stored model
+- evaluate : Architecture evaluation
+- evolve : Weights and particles correspond to the evolution of architecture parameters
+- global : Configuration files
+- main ：Program main function
+- population : Population structure generation
+- utils_ghostv2 : Architecture search tool
 
 # Using ETM-NAS for Custom Dataset Search and Training
 
