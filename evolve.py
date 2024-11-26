@@ -65,33 +65,6 @@ def adapt_inertia_weight(weight_set, c1_set, c2_set, best_agent_set, previous_ag
     for i in range(0, len(weight_set)):
         weight_set[i] = logistic_map(w_max, w_min, TMAX, curr_gen, sigma, b1, b2)
         c1_set[i], c2_set[i] = dynamic_learning_factors(curr_gen, TMAX, c_max, c_min)
-    
-    # 方法二
-    # for i in range(0, len(weight_set)):
-    #     # 如果适应度下降，则增加惯性权重
-    #     # 如果适应度下降，则降低来自自身的经验，更趋近于全局经验
-    #     c1_set[i] *= pow(Tp / best_num_parameters[i], wp[int(bool(best_num_parameters[i] > Tp))]) * pow(
-    #         Tf / best_flops[i],
-    #         wf[int(bool(best_flops[i] > Tf))])
-    #     c2_set[i] *= pow((1 - gbest_err) / (1 - err_set[i]), wa[int(bool((1 - err_set[i]) > (1 - gbest_err)))])
-    #     weight_set[i] *= pow((1 - gbest_err) / (1 - err_set[i]), wa[int(bool((1 - err_set[i]) > (1 - gbest_err)))])
-
-    # 方法三
-    # for j in range(0, len(best_agent_set)):
-    #     if best_agent_set[j] < previous_agent_set[j]:
-    #         for i in range(0, len(weight_set)):
-    #             # 如果适应度下降，则增加惯性权重
-    #             # 如果适应度下降，则降低来自自身的经验，更趋近于全局经验
-    #             c1_set[i] *= 1.1
-    #             c2_set[i] *= 1.1
-    #             weight_set[i] *= 1.1
-    #     elif best_agent_set[j] > previous_agent_set[j]:
-    #         # 如果适应度上升，则减小惯性权重
-    #         # 如果适应度上升，则增加来自自身的经验，适当降低来自全局经验，探索更多样性的可能
-    #         for i in range(0, len(weight_set)):
-    #             c1_set[i] *= 0.9
-    #             c2_set[i] *= 0.9
-    #             weight_set[i] *= 0.9
 
     return weight_set, c1_set, c2_set
 
