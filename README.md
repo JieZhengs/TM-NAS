@@ -86,7 +86,6 @@ Download MedmnistV2 and NAS-Bench-201 datasets, and place them in `global.ini` f
 - global : Configuration files
 - main ：Program main function
 - population : Population structure generation
-- utils_ghostv2 : Architecture search tool
 
 # Using ETM-NAS for Custom Dataset Search and Training
 
