@@ -266,29 +266,3 @@ def compute_our_score(model, gpu, resolution, is_3D, image_channel, init=True, m
     info['complexity_flops'] = float(flops) if not np.isnan(expressivity) else -np.inf
     info['complexity_params'] = float(params) if not np.isnan(expressivity) else -np.inf
     return info
-
-# if __name__ == "__main__":
-#     import warnings
-#     warnings.filterwarnings("ignore")
-#     model = EvoCNNModel2D()
-#     start_timer = time.time()
-#     the_scores = compute_our_score(model=model, resolution=28, gpu=0, is_3D=False, image_channel=3)
-    
-#     print('expressivity', the_scores['expressivity'])
-#     print('trainability', the_scores['trainability'])
-#     print('complexity_flops(M)', the_scores['complexity_flops']/1000000)
-#     print('complexity_params(M)', the_scores['complexity_params']/1000000)
-#     # the_score = the_scores['complexity_flops'] + the_scores['complexity_params']
-#     time_cost = float((time.time() - start_timer))
-#     values = np.abs([the_scores['expressivity'], the_scores['trainability'], the_scores['complexity_flops']/1000000, the_scores['complexity_params']/1000000])
-#     log_values = np.log1p(values)  # 使用 log1p 防止 log(0) 问题
-#     # 几何平均对于各个指标的尺度更敏感，适合在对数尺度上的处理，可以平滑各个指标的影响
-#     # 计算几何平均
-#     combined_value = np.exp(np.mean(log_values))
-
-#     print(f"score: {combined_value}")
-#     # print(f"trainability: {the_scores['expressivity']}")
-    
-    
-#     # print(f'time cost={time_cost:.4g} second(s)')
-#     # print(f'our_SCORE={the_score:.4g}, time cost={time_cost:.4g} second(s)')
