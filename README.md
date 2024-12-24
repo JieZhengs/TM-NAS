@@ -90,7 +90,7 @@ Download MedmnistV2, NAS-Bench-201, LC25000, BreakHis and Colorectal(CRC-5000) d
 - main ：Program main function
 - population : Population structure generation
 
-# Using ETM-NAS for Custom Dataset Search and Training
+# Using TM-NAS for Custom Dataset Search and Training
 
 If you want to use this repository to perform search and training on your own dataset, please follow these steps:
 
