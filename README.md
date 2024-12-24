@@ -1,5 +1,5 @@
-# ETM-NAS
-Efficient Training-free Multi-Scale Neural Architecture Search for Medical Image Analysis
+# TM-NAS
+Training-free Multi-Scale Neural Architecture Search for High-incidence Cancer Prediction
 
 ## Citation
 ```
@@ -141,13 +141,13 @@ If you want to use this repository to perform search and training on your own da
    wa = -0.01, -1
 
    [DATASETS]
-   root_dir = E:\\Zero_NAS_RES\\Code\\ETM-NAS\\datasets
+   root_dir = E:\\Zero_NAS_RES\\Code\\TM-NAS\\datasets
    ```
 
 4. **Run the Program.**  
    Execute the main.py file.
 
-# Enjoy the efficient and enjoyable training experience with ETM-NAS!
+# Enjoy the efficient and enjoyable training experience with TM-NAS!
 
 # Notice
 If you would like to receive full source results of ETM-NAS, please contact the author Jie Zheng at zjpdd0905@stu.cwnu.edu.cn. Please indicate your purpose of use, I will reply the first moment I see the email, thank you
