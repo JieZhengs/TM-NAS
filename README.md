@@ -67,10 +67,13 @@ Training-free Multi-Scale Neural Architecture Search for High-incidence Cancer P
 
 ## Data
 
-Download MedmnistV2 and NAS-Bench-201 datasets, and place them in `global.ini` file.
+Download MedmnistV2, NAS-Bench-201, LC25000, BreakHis and Colorectal(CRC-5000) datasets, and place them in `global.ini` file.
 
 - MedmnistV2 from [here](https://medmnist.com/)
 - NAS-Bench-201 from [here](https://github.com/D-X-Y/NAS-Bench-201)
+- LC25000 dataset from [here](https://www.kaggle.com/datasets/andrewmvd/lung-and-colon-cancer-histopathological-images)
+- BreakHis dataset from [here](https://www.kaggle.com/datasets/ambarish/breakhis)
+- Colorectal dataset from [here](https://www.kaggle.com/datasets/kmader/colorectal-histology-mnist)
     
     
 ## Folder Structure
