@@ -1,6 +1,7 @@
 # TM-NAS
 Training-free Multi-Scale Neural Architecture Search for High-incidence Cancer Prediction
-
+# This paper has been accepted by IEEE Transactions on Artificial Intelligence. If it is useful to you, please remember to cite it.
+This Bib will coming soon!
 ## Citation
 ```
 @INPROCEEDINGS{FPSO,
