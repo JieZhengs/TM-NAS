@@ -4,6 +4,14 @@ Training-free Multi-Scale Neural Architecture Search for High-incidence Cancer P
 This Bib will coming soon!
 ## Citation
 ```
+@article{xu2025adaptive,
+  title={Adaptive Multi-particle Swarm Neural Architecture Search for High-incidence Cancer Prediction},
+  author={Xu, Liming and Zheng, Jie and He, Chunlin and Wang, Jing and Zheng, Bochuan and Lv, Jiancheng},
+  journal={IEEE Transactions on Artificial Intelligence},
+  year={2025},
+  publisher={IEEE}
+}
+
 @INPROCEEDINGS{FPSO,
   title={A Flexible Variable-length Particle Swarm Optimization Approach to Convolutional Neural Network Architecture Design},
   author={Huang, Junhao and Xue, Bing and Sun, Yanan and Zhang, Mengjie},
